@@ -1,0 +1,43 @@
+# dependencies
+node_modules
+/dist
+.vite
+coverage
+
+# build output
+build
+out
+
+# local env / secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# local assets / private data
+public/images/
+public/resume/
+public/uploads/
+
+# local media / documents
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.svg
+*.ico
