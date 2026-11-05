@@ -127,7 +127,7 @@ export const profile = {
   email: "rizkaannisa85@gmail.com",
   location: "Palu, Sulawesi Tengah",
   cv: "resume/CV_Rizka Annisa.pdf",
-  photo: "images/profile3.png",
+  photo: "images/profile-pic.png",
   socials: [
     { id: "linkedin", label: "LinkedIn", href: "https://www.linkedin.com/in/rizkaa/" },
     { id: "github", label: "GitHub", href: "https://github.com/KarizYa" },

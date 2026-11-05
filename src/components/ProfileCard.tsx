@@ -16,12 +16,14 @@ function Photo() {
 
         {!failed ? (
           <div className="absolute inset-0 z-10 overflow-hidden rounded-[22px] ring-4 ring-white/70 shadow-[0_16px_30px_rgba(15,23,42,0.12)] transition-transform duration-300 hover:scale-[1.04]">
-            <img
-              src={asset(profile.photo)}
-              alt={`Foto ${profile.firstName} ${profile.lastName}`}
-              onError={() => setFailed(true)}
-              className="h-full w-full scale-[1.12] object-cover object-center transition-transform duration-500 hover:scale-[1.22]"
-            />
+            <div className="h-full w-full -translate-y-[12px]">
+              <img
+                src={asset(profile.photo)}
+                alt={`Foto ${profile.firstName} ${profile.lastName}`}
+                onError={() => setFailed(true)}
+                className="h-full w-full scale-[1.12] object-cover object-center transition-transform duration-500 hover:scale-[1.22]"
+              />
+            </div>
           </div>
         ) : (
           <div
